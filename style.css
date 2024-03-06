@@ -392,7 +392,6 @@ nav {
 .settings-menu{
     position: absolute;
     width: 23%;
-    max-width: 350px;
     background: var( --bg-color);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
     overflow: hidden;
@@ -681,6 +680,11 @@ nav {
     }
     .post-input-container{
         padding-left: 0;
+    }
+    .settings-menu{
+        position: absolute;
+        left: 10%;
+        width: 75%;
     }
 }
 
