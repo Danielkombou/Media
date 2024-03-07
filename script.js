@@ -10,9 +10,11 @@ darkBtn.onclick = function(){
 
     if(localStorage.getItem("theme") == "light"){
         localStorage.setItem("theme", "dark");
+        settingsMenu.classList.remove("settings-menu-height");
     }
     else{
         localStorage.setItem("theme", "light");
+        settingsMenu.classList.remove("settings-menu-height");
     }
 
 }
